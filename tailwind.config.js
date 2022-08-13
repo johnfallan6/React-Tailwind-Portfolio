@@ -7,6 +7,10 @@ module.exports = {
       colors: {
         primary: "#d8ab4e",
         secondary: "#b48c36",
+        darkBackground: "#1c1b1b",
+        lightBackground: "3F5F5F5",
+        header: "#fdf5e6",
+        paragraph: "#85754e"
       },
     },
     fontFamily: {
