@@ -53,7 +53,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "social-links" +
+              "social-links hover:text-darkBackground" +
               " " +
               style
             }
