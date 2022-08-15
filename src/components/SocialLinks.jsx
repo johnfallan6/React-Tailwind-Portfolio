@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={40} className="pl-4" />
+          LinkedIn <FaLinkedin size={30} className="icon"/>
         </>
       ),
       href: "https://www.linkedin.com/in/johnfallan6/",
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={40} className="pl-4"  />
+          GitHub <FaGithub size={30} className="icon"/>
         </>
       ),
       href: "https://github.com/johnfallan6",
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={40} className="pl-4" />
+          Mail <HiOutlineMail size={30} className="icon" />
         </>
       ),
       href: "mailto:johnfallan6@gmail.com",
@@ -37,7 +37,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={40} className="pl-4" />
+          Resume <BsFillPersonLinesFill size={30} className="icon" />
         </>
       ),
       href: "/John Allan_Resume 2022.pdf",
@@ -47,13 +47,13 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed pl-2">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-110px] hover:ml-[-10px] hover:rounded-md duration-300 bg-header opacity-75" +
+              "social-links" +
               " " +
               style
             }
@@ -62,7 +62,7 @@ const SocialLinks = () => {
               href={href}
               target="_blank"
               rel="noreferrer"
-              className="flex justify-between items-center w-full text-darkBackground"
+              className="flex justify-between items-center w-full"
               download={download}
             >
               {child}
@@ -75,3 +75,7 @@ const SocialLinks = () => {
 };
 
 export default SocialLinks;
+
+// Original styling for social links bar
+
+// flex justify-between items-center w-40 h-14 px-4 ml-[-115px] hover:ml-[-10px] hover:rounded-md duration-300 bg-header opacity-75
