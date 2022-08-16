@@ -23,11 +23,11 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-header w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-200 cursor-pointer"
+              className="group text-header text-2xl w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-200 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                <MdOutlineKeyboardArrowRight size={30} className="ml-1" />
               </span>
             </Link>
           </div>
@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src="/images/profileimage.jpg"
             alt="Me in Scotland"
-            className="rounded-2xl mx-auto w-2/3  md:w-full  ml-10"
+            className="rounded-2xl mx-auto w-2/3  md:w-full  ml-10 my-20"
           />
         </div>
       </div>
