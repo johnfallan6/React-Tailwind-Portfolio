@@ -10,10 +10,10 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row text-primary">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-6xl font-bold text-header">
+          <h2 className="text-4xl sm:text-6xl font-bold text-header tracking-wider">
             Hi there!
           </h2>
-          <p className="text-paragraph py-4">
+          <p className="text-paragraph py-4 text-2xl tracking-widest">
             I'm a Full Stack developer with 2 years of experience building and
             designing websites and mobile applications. I am currently working
             with technologies such as React, React-Native, Tailwind, and NodeJS.
@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src="/images/profileimage.jpg"
             alt="Me in Scotland"
-            className="rounded-2xl mx-auto w-2/3 sm:w-1/2 md:w-full max-w-100px ml-7"
+            className="rounded-2xl mx-auto w-2/3 sm:w-1/2 md:w-full max-w-100px ml-10"
           />
         </div>
       </div>

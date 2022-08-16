@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} className="icon"/>
+          LinkedIn <FaLinkedin size={30} className="icon" />
         </>
       ),
       href: "https://www.linkedin.com/in/johnfallan6/",
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} className="icon"/>
+          GitHub <FaGithub size={30} className="icon" />
         </>
       ),
       href: "https://github.com/johnfallan6",

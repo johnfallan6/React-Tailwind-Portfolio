@@ -10,11 +10,11 @@ module.exports = {
         darkBackground: "#1c1b1b",
         lightBackground: "3F5F5F5",
         header: "#fdf5e6",
-        paragraph: "#85754e"
+        paragraph: "#85754e",
       },
     },
     fontFamily: {
-      signature: ["Raleway"],
+      signature: ["Rubik"],
     },
   },
   plugins: [],

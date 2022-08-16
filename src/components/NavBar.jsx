@@ -29,13 +29,13 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 text-primary fixed px-4 bg-darkBackground">
       <div>
-        <h1 className="text-4xl ml-2 font-bold">John Allan</h1>
+        <h1 className=" font-signature text-4xl ml-2 font-bold">John Allan</h1>
       </div>
-      <ul className="hidden md:flex text-secondary">
+      <ul className="hidden md:flex text-secondary font-signature">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer hover:scale-105 duration-200 hover:text-header"
+            className="px-4 cursor-pointer hover:scale-105 text-3xl duration-200 hover:text-header"
           >
             <Link to={link} smooth duration={500}>
               {link.charAt(0).toUpperCase() + link.slice(1)}

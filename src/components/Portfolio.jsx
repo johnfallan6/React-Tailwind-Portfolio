@@ -1,7 +1,4 @@
 import React from "react";
-// import btxLogo from "./assets/portfolio/btxLogo.png";
-
-// const project = <img src="../assets/portfolio/btxLogo.png" alt="Logo for BTX custom boards" />
 
 const Portfolio = () => {
   const portfolios = [
@@ -26,10 +23,12 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full ">
         <div className="pb-8">
-          <p className="text-4xl font-bold text-header inline border-b-4 border-primary">
+          <p className="text-4xl font-bold text-header inline border-b-4 border-primary tracking-wider">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here! COMING SOON!!</p>
+          <p className="py-6 text-2xl tracking-widest">
+            Check out some of my work right here! COMING SOON!!
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src }) => (

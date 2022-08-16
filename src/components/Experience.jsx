@@ -71,10 +71,10 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-header">
         <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-primary p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-primary p-2 inline tracking-wider">
             Experience
           </p>
-          <p className="py-6 text-paragraph">
+          <p className="py-6 text-2xl tracking-widest text-paragraph">
             These are the main technologies I've worked with...
           </p>
         </div>
