@@ -14,9 +14,10 @@ const Home = () => {
             Hi there!
           </h2>
           <p className="text-paragraph py-4 text-2xl max-w-auto tracking-widest">
-            I'm a Full Stack developer with 2 years of experience building and
-            designing websites and mobile applications. I am currently working
-            with technologies such as React, React-Native, Tailwind, and NodeJS.
+            I'm a Full Stack developer with experience building and designing
+            websites and mobile applications. I am currently working with
+            technologies such as React, React-Native, Tailwind, and NodeJS. I'm
+            looking opportunities to increase my knowledge and experience.
           </p>
           <div>
             <Link
