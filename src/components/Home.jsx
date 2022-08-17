@@ -17,7 +17,7 @@ const Home = () => {
             I'm a Full Stack developer with experience building and designing
             websites and mobile applications. I am currently working with
             technologies such as React, React-Native, Tailwind, and NodeJS. I'm
-            looking opportunities to increase my knowledge and experience.
+            currently looking for opportunities to increase my knowledge and experience.
           </p>
           <div>
             <Link
