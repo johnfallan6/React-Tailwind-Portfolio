@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import SocialLinks  from "./components/SocialLinks";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import ReactTooltip from "react-tooltip";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Contact />
       <SocialLinks />
       <Footer />
+      <ReactTooltip />
     </>
   );
 };

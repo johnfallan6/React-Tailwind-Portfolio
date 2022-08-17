@@ -13,17 +13,22 @@ const About = () => {
           </p>
         </div>
         <p className="mt-10 text-2xl tracking-widest">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
-          fugit ab accusantium quod repudiandae error blanditiis nam
-          perspiciatis dicta provident sequi quo iure qui vitae, rem nostrum
-          amet nobis eos!
+          I’m a front-end developer located in Austin, Tx. I have a serious
+          passion for learning, all things creative, and working with
+          individuals with disabilities. I’m a student and teacher at heart - I
+          love to share knowledge and skills to help others, and myself grow.
         </p>
         <br />
         <p className="text-2xl tracking-widest">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
-          sapiente autem unde, et suscipit est sed, provident possimus accusamus
-          delectus minima, non dolores? Sequi asperiores saepe, minus porro odio
-          beatae!
+          A well-organized problem solver with high attention to detail. I love
+          making things, music - playing, watching, listening. I appreciate
+          visual arts in all its forms from movies and tv, to photography and
+          painting.
+        </p>
+        <br />
+        <p className="text-2xl tracking-widest">
+          My mission is to always learn and create, and to make the web a more
+          accessible place for everyone.
         </p>
       </div>
     </div>
