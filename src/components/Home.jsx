@@ -14,19 +14,19 @@ const Home = () => {
             Hi there!
           </h2>
           <p className="text-paragraph py-4 text-2xl max-w-auto tracking-widest">
-            I'm John and I am a Full Stack developer with experience building and designing
-            websites and mobile applications. My experience focusses on working with
-            technologies such as React, React-Native, Tailwind, and NodeJS. I'm
-            looking for opportunities to increase my knowledge and experience,
-            so feel free to connect with me if you want to be part of my
-            journey.
+            I'm John and I am a Full Stack developer with experience building
+            and designing websites and mobile applications. My experience
+            focusses on working with technologies such as React, React-Native,
+            Tailwind, and NodeJS. I'm looking for opportunities to increase my
+            knowledge and experience, so feel free to connect with me if you
+            want to be part of my journey.
           </p>
           <div>
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-header text-2xl w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-200 cursor-pointer"
+              className="group text-header text-2xl w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-200 cursor-pointer mt-10"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
