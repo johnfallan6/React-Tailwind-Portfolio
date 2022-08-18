@@ -14,10 +14,12 @@ const Home = () => {
             Hi there!
           </h2>
           <p className="text-paragraph py-4 text-2xl max-w-auto tracking-widest">
-            I'm a Full Stack developer with experience building and designing
-            websites and mobile applications. I am currently working with
+            I'm John and I am a Full Stack developer with experience building and designing
+            websites and mobile applications. My experience focusses on working with
             technologies such as React, React-Native, Tailwind, and NodeJS. I'm
-            currently looking for opportunities to increase my knowledge and experience.
+            looking for opportunities to increase my knowledge and experience,
+            so feel free to connect with me if you want to be part of my
+            journey.
           </p>
           <div>
             <Link
