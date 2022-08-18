@@ -13,17 +13,17 @@ const About = () => {
           </p>
         </div>
         <p className="mt-10 text-2xl tracking-widest">
-          I’m a front-end developer located in Austin, Tx. I have a serious
+          I’m a Full-Stack developer located in Austin, Tx. I have a serious
           passion for learning, all things creative, and working with
           individuals with disabilities. I’m a student and teacher at heart - I
-          love to share knowledge and skills to help others, and myself grow.
+          love to share knowledge and skills to help others (and myself) grow.
         </p>
         <br />
         <p className="text-2xl tracking-widest">
           A well-organized problem solver with high attention to detail. I love
-          making things, music - playing, watching, listening. I appreciate
-          visual arts in all its forms from movies and tv, to photography and
-          painting.
+          making things and anything music related - playing, watching, listening. I appreciate
+          visual arts in all its forms, from movies and tv, to photography and
+          painting. 
         </p>
         <br />
         <p className="text-2xl tracking-widest">

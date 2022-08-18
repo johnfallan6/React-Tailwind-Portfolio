@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-full w-full bg-gradient-to-b from-darkBackground via-darkBackground to-black py-20 overflow-hidden"
+      className="h-full w-full bg-gradient-to-b from-darkBackground via-darkBackground to-black py-20 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row text-primary">
         <div className="flex flex-col justify-center h-full">
@@ -35,11 +35,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="xs:w-[100px]">
           <img
             src="/images/profileimage.jpg"
             alt="Me in Scotland"
-            className="rounded-2xl mx-auto w-2/3  md:w-full  ml-10 my-20"
+            className="rounded-2xl mx-auto w-1/3 md:w-[1200px] ml-10 my-20"
           />
         </div>
       </div>
