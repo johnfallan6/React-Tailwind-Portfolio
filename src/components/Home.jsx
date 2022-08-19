@@ -14,11 +14,11 @@ const Home = () => {
             Hi there!
           </h2>
           <p className="text-paragraph py-4 text-2xl max-w-auto tracking-widest">
-            I'm John and I am a Full Stack developer with experience building
+            I'm John and I'm a Full-Stack developer with experience building
             and designing websites and mobile applications. My experience
             focusses on working with technologies such as React, React-Native,
             Tailwind, and NodeJS. I'm looking for opportunities to increase my
-            knowledge and experience, so feel free to connect with me if you
+            current knowledge and experience, so feel free to connect with me if you
             want to be part of my journey.
           </p>
           <div>
@@ -35,11 +35,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="xs:w-[100px]">
+        <div className="">
           <img
             src="/images/profileimage.jpg"
             alt="Me in Scotland"
-            className="rounded-2xl mx-auto w-1/3 md:w-[1200px] ml-10 my-20"
+            className="rounded-2xl mx-auto w-1/2 md:w-[2000px] ml-10 my-20"
           />
         </div>
       </div>
