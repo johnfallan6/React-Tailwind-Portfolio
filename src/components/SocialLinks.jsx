@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} className="icon" />
         </>
       ),
-      href: "/John Allan_Resume 2022.pdf",
+      href: "/John Allan_Resume 2022 - September.pdf",
       style: "rounded-br-md",
       download: true,
     },
