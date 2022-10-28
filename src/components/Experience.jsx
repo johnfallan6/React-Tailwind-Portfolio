@@ -58,9 +58,9 @@ const Experience = () => {
     },
     {
       id: 10,
-      name: "Github",
-      src: "/images/github.png",
-      alt: "github logo",
+      name: "Git",
+      src: "/images/git.png",
+      alt: "git logo",
     },
     {
       id: 11,
