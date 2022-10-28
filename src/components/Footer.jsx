@@ -14,6 +14,7 @@ const Footer = () => {
       ),
       href: "https://www.linkedin.com/in/johnfallan6/",
       name: "LinkedIn",
+      alt: "LinkedIn Profile Link",
     },
     {
       id: 2,
@@ -24,6 +25,7 @@ const Footer = () => {
       ),
       href: "https://github.com/johnfallan6",
       name: "GitHub",
+      alt: "GitHub Profile Link",
     },
     {
       id: 3,
@@ -34,34 +36,45 @@ const Footer = () => {
       ),
       href: "mailto:johnfallan6@gmail.com",
       name: "Email",
+      alt: "Email Link",
     },
     {
       id: 4,
       child: (
         <>
-          <BsFillPersonLinesFill size={30} className="icon" />
+          <BsFillPersonLinesFill size={30} className="icon" onClick="" />
         </>
       ),
+      name: "PDF Resume Download",
+      type: "file",
       href: "/John Allan_Resume 2022 - September.pdf",
+      alt: "PDF Resume Download",
       download: true,
-      name: "Resume ",
     },
   ];
   return (
-    <div name="footer" className=" bg-black px-6 py-2 w-full h-full">
+    <div
+      id="footer"
+      name="footer"
+      className=" bg-black px-6 py-2 w-full h-full"
+    >
       <div className="grid items-center justify-center">
         <ul className="flex">
-          {links.map(({ id, child, href, download, name }) => (
+          {links.map(({ id, child, href, download, type, name, alt }) => (
             <li key={id} className={"footer"}>
               <a
+                name={name}
                 href={href}
+                alt={alt}
                 target="_blank"
                 rel="noreferrer"
                 className="p-3"
                 download={download}
+                type={type}
               >
                 {child}
               </a>
+              <h4 className="footerlinks">{name}</h4>
             </li>
           ))}
         </ul>

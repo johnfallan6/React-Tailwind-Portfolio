@@ -18,17 +18,18 @@ const Portfolio = () => {
 
   return (
     <div
+    id="portfolio"
       name="portfolio"
       className="bg-gradient-to-b from-darkBackground to-black text-paragraph w-full md:h-screen "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold text-header inline border-b-4 border-primary tracking-wider">
+          <h2 className="text-4xl font-bold text-header inline border-b-4 border-primary tracking-wider">
             Portfolio
-          </p>
-          <p className="py-8 mt-6 text-2xl tracking-widest">
+          </h2>
+          <h3 className="py-8 mt-6 text-2xl tracking-widest">
             Check out some of my work right here! COMING SOON!!
-          </p>
+          </h3>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src }) => (

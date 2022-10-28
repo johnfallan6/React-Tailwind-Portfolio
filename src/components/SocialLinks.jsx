@@ -12,6 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} className="icon" />
         </>
       ),
+      name:"LinkedIn profile link",
       href: "https://www.linkedin.com/in/johnfallan6/",
       style: "rounded-tr-md",
     },
@@ -22,6 +23,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} className="icon" />
         </>
       ),
+      name:"GitHub repository link",
       href: "https://github.com/johnfallan6",
     },
     {
@@ -31,6 +33,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} className="icon" />
         </>
       ),
+      name:"email link",
       href: "mailto:johnfallan6@gmail.com",
     },
     {
@@ -40,16 +43,18 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} className="icon" />
         </>
       ),
+      name:"PDF resume download",
       href: "/John Allan_Resume 2022 - September.pdf",
       style: "rounded-br-md",
+      type: "file",
       download: true,
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed pl-2">
+    <div id="sociallinks" className="hidden lg:flex flex-col top-[35%] left-0 fixed pl-2">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style, download, type }) => (
           <li
             key={id}
             className={
@@ -64,8 +69,9 @@ const SocialLinks = () => {
               rel="noreferrer"
               className="flex justify-between items-center w-full"
               download={download}
+              type={type}
             >
-              {child}
+              {child}             
             </a>
           </li>
         ))}

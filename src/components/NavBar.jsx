@@ -7,7 +7,7 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "home"
     },
     {
       id: 2,
@@ -27,20 +27,20 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-primary fixed px-4 bg-darkBackground">
+    <div id="navbar" role="navigation" aria-label="Primary" className="flex justify-between items-center w-full h-20 text-primary fixed px-4 bg-darkBackground">
       <div>
         <h1 className="font-signature text-4xl ml-2 font-bold">John Allan</h1>
       </div>
       <ul className="hidden md:flex text-secondary font-signature">
-        {links.map(({ id, link }) => (
-          <li
+        {links.map(({ id, link }) => (         
+          <li 
             key={id}
             className="px-4 cursor-pointer hover:scale-105 text-3xl duration-200 hover:text-header"
           >
             <Link to={link} smooth duration={500}>
               {link.charAt(0).toUpperCase() + link.slice(1)}
-            </Link>
-          </li>
+            </Link>           
+          </li>         
         ))}
       </ul>
       <div

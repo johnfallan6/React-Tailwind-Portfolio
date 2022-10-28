@@ -28,36 +28,48 @@ const Experience = () => {
     },
     {
       id: 5,
+      name: "Angular",
+      src: "/images/angular.png",
+      alt: "angular logo",
+    },
+    {
+      id: 6,
       name: "React Native",
       src: "/images/reactnative.png",
       alt: "react native logo",
     },
     {
-      id: 6,
+      id: 7,
       name: "Node.JS",
       src: "/images/node.png",
       alt: "node logo",
     },
     {
-      id: 7,
+      id: 8,
       name: "MongoDB",
       src: "/images/mongodb.png",
-      alt: "mongo d b logo",
+      alt: "mongo db logo",
     },
     {
-      id: 8,
+      id: 9,
+      name: "GraphQL",
+      src: "/images/graphql.png",
+      alt: "grpah QL logo",
+    },
+    {
+      id: 10,
       name: "Github",
       src: "/images/github.png",
       alt: "github logo",
     },
     {
-      id: 9,
+      id: 11,
       name: "Bootstrap",
       src: "/images/bootstrap-4.png",
       alt: "bootstrap logo",
     },
     {
-      id: 10,
+      id: 12,
       name: "Tailwind",
       src: "/images/tailwind.png",
       alt: "tailwind logo",
@@ -66,17 +78,18 @@ const Experience = () => {
 
   return (
     <div
+      id="experience"
       name="experience"
       className="bg-gradient-to-b from-black to-darkBackground w-full h-full py-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-header">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-primary p-2 inline tracking-wider">
+          <h2 className="text-4xl font-bold border-b-4 border-primary p-2 inline tracking-wider">
             Experience
-          </p>
-          <p className="py-8 mt-6 text-2xl tracking-widest text-paragraph">
+          </h2>
+          <h3 className="py-8 mt-6 text-2xl tracking-widest text-paragraph">
             These are the main technologies I've worked with...
-          </p>
+          </h3>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {icons.map(({ id, src, alt, name }) => (

@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
+    id="home"
       name="home"
       className="h-full w-full bg-gradient-to-b from-darkBackground via-darkBackground to-black py-20 "
     >
@@ -13,14 +14,14 @@ const Home = () => {
           <h2 className="text-4xl pt-20 sm:text-6xl font-bold text-header tracking-wider">
             Hi there!
           </h2>
-          <p className="text-paragraph py-4 text-2xl max-w-auto tracking-widest">
+          <h3 className="text-paragraph py-4 text-2xl max-w-auto tracking-widest">
             I'm John and I'm a Full-Stack developer with experience building
             and designing websites and mobile applications. My experience
             focusses on working with technologies such as React, React-Native,
             Tailwind, and NodeJS. I'm looking for opportunities to increase my
             current knowledge and experience, so feel free to connect with me if you
             want to be part of my journey.
-          </p>
+          </h3>
           <div>
             <Link
               to="portfolio"
