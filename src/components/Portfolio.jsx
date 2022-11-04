@@ -4,7 +4,7 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "/images/blogTN.png",
+      src: "/images/blog.png",
       alt: "john allan blog",
       name: "Blog",
       href: "https://blog-seven-flame.vercel.app/",
