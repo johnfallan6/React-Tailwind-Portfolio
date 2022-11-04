@@ -4,9 +4,9 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "/images/blog.png",
+      src: "/images/blogTN.png",
       alt: "john allan blog",
-      name: "John Allan - Blog",
+      name: "Blog",
       href: "https://blog-seven-flame.vercel.app/",
     },
     {
@@ -33,7 +33,7 @@ const Portfolio = () => {
             Portfolio
           </h2>
           <h3 className="py-8 mt-6 text-2xl tracking-widest">
-            Check out some of my work right here!
+            Check out some examples of my work right here!
           </h3>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -42,10 +42,10 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt={alt}
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-lg"
               />
               <div className="flex items-center justify-center text-header">
-                <button className="w-1/2 px-6 py-3 m-4 duration-300 hover:scale-110 hover:text-primary">
+                <button className="transition duration-500 ease bg-gradient-to-b from-cyan-500 to-blue-500 rounded-lg w-1/2 px-6 py-3 m-4 hover:scale-110 text-xl text-bold">
                   <a href={href} target="_blank" rel="noreferrer">
                     {name}
                   </a>
