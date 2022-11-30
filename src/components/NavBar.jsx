@@ -37,7 +37,7 @@ const NavBar = () => {
         to="home"
         smooth
         duration={500}
-        className="font-signature text-4xl ml-2 font-bold hover:scale-105 duration-200 cursor-pointer hover:text-header"
+        className="font-signature text-4xl ml-2 font-bold duration-300 cursor-pointer hover:text-secondary"
       >
         John Allan
       </Link>
